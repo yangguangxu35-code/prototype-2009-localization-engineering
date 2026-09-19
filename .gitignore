@@ -1,0 +1,74 @@
+# Game archives and proprietary resources
+*.rcf
+*.gfx
+*.p3d
+*.p3d.rz
+*.swf
+*.fnt
+*.ttf
+*.otf
+*.wav
+*.mp3
+*.ogg
+*.bik
+*.dll
+*.exe
+*.jar
+
+# Extracted/rebuilt assets and corpora
+extracted/
+reconstructed/
+rebuilt/
+game-assets/
+translation-corpus/
+textbible/
+subtitles/
+dialogue/
+dumps/
+
+# Build, backup, diagnostic, and temporary output
+build/
+dist/
+out/
+output/
+backup/
+backups/
+runtime_backup*/
+diagnostics/
+temp/
+tmp/
+stage/
+staging/
+*.bak
+*.backup
+*.failed*
+*.tmp
+*.temp
+*.log
+*.dmp
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local.json
+local.config.*
+secrets.*
+credentials.*
+
+# Tool/dependency caches
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.cache/
+
+# Save data and editor/OS files
+*.sav
+*.save
+*.sl2
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
