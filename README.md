@@ -84,6 +84,10 @@ Release stability was prioritized over nominal 100% localization coverage. Abili
 
 The workflow includes a visible-English scanner, placeholder/control-code validator, binding-aware glyph auditor, resource-diff tooling, SHA/manifest verification, and guarded deploy/rollback scripts. Some tooling remains Prototype-specific and still requires refactoring before it can be generalized across games.
 
+## Chinese write-up
+
+A longer Chinese retrospective of this project is available on [GCORES](https://www.gcores.com/articles/219940).
+
 ## Limitations & Rights
 
 This is an unofficial personal engineering case study and is not affiliated with, sponsored by, or endorsed by the game's rights holders.
